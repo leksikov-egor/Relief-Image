@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <nav class="header__menu">
+                            <ul class="header__list">
+                                <li class="header__list-item">
+                                    <a class="header__list-link" href="#info">О компании</a>
+                                </li>
+                                <li class="header__list-item">
+                                    <a class="header__list-link" href="#projects">Проекты</a>
+                                </li>
+                                <li class="header__list-item">
+                                    <a class="header__list-link" href="#care">Уход за садом</a>
+                                </li>
+                                <li class="header__list-item">
+                                    <a class="header__list-link" href="#landscape">Ландшафт</a>
+                                </li>
+                                <li class="header__list-item">
+                                    <a class="header__list-link" href="#reviews">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__contacts">
+                            <a class="header__contacts-item header__contacts-item--phone" href="tel:+79819855004">
+                                тел.+7 (981) 985-50-04
+                            </a>
+                            <a class="header__contacts-item header__contacts-item--location" href="">
+                                Санкт-Петербург и ЛО
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__content">
+                <div class="header__content-box">
+                    <div class="header__content-logo">
+                        <img class="header__content-logoimg" src="images/header-logo.png" alt="">
+                    </div>
+                    <h2 class="header__content-title">
+                        Благоустройство и озеленение участков
+                    </h2>
+                    <a class="header__content-btn" data-fancybox href="#modal">Оставить заявку</a>
+                </div>
+                <div class="header__content-social">
+                    <a class="header__content-link" href="">
+                        <img class="header__content-linkimg" src="images/icons/header-social-inst.png" alt="">
+                    </a>
+                    <a class="header__content-link" href="">
+                        <img class="header__content-linkimg" src="images/icons/header-social-whats.png" alt="">
+                    </a>
+                    <a class="header__content-link" href="">
+                        <img class="header__content-linkimg" src="images/icons/header-social-email.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info" id="info">
+            <div class="container">
+                <div class="benefits">
+                    <div class="benefits__inner">
+                        <div class="benefits__item">
+                            <img class="benefits__img" src="images/benefits/1.svg" alt="">
+                            <div class="benefits__text">Опыт работы более 10 лет</div>
+                        </div>
+                        <div class="benefits__item">
+                            <img class="benefits__img" src="images/benefits/2.svg" alt="">
+                            <div class="benefits__text">Гарантия на растения</div>
+                        </div>
+                        <div class="benefits__item">
+                            <img class="benefits__img" src="images/benefits/3.svg" alt="">
+                            <div class="benefits__text">Лучшие питомники</div>
+                        </div>
+                    </div>
+                    <div class="benefits__after">
+                        <img src="images/benefits/after.png" alt="">
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="company__inner">
+                        <h3 class="company__title">О КОМПАНИИ</h3>
+                        <p class="company__text"><span>Relief Image</span> - компания по уходу за садом и ландшафтом.
+                            Более 10 лет мы
+                            занимаемся благоустройством загородных участков, также имеем порядка 60 готовых работ в
+                        Ленинградской области и Санкт-Петербурге</p>
+                        <p class="company__text">К нам обращаются и доверяют уже более 20 постоянных клиентов за помощью
+                            по благоустройству и уходу участков.
+                        </p>
+                        <p class="company__text company__text--ghost">Наша компания отличается КАЧЕСТВОМ выполненных
+                            работ, ГАРАНТИЕЙ на
+                            растения, ЛУЧШИМИ питомниками для вашего участка и разработкой проекта ПОД КЛЮЧ.
+                        </p>
+                        <p class="company__text company__text--ghost">Обратившись к нашим специалистам, вы всегда будете
+                            чувствовать, как мы
+                            с большим вниманием относимся к вашим предпочтениям. Одной из ключевых задач нашей компании
+                            является то, что бы клиент всегда оставался доволен и наслаждался выполненной работой. Если
+                            вас интерисовали именно эти критерии при подборе специалистов, то вы попали в нужные руки!
+                        </p>
+                        <div class="company__btn">
+                            <img class="company__arrow" src="images/icons/arrow-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="projects">
+                    <div class="projects__wrapper">
+                        <h3 class="projects__title">НАШИ ПРОЕКТЫ</h3>
+                        <div class="projects__box">
+                            <div class="projects__item">
+                                <a class="projects__link" href="">
+                                    <img class="projects__img" src="images/projects/1.jpg" alt="">
+                                    <div class="projects__name">Правдинское</div>
+                                </a>
+                            </div>
+                            <div class="projects__item">
+                                <a class="projects__link" data-fancybox data-src="#project-slider"
+                                data-options='{"touch" : false}' href="">
+                                <img class="projects__img" src="images/projects/2.jpg" alt="">
+                                <div class="projects__name">Репино</div>
+                            </a>
+                        </div>
+                        <div class="projects__item">
+                            <a class="projects__link" data-fancybox data-src="#project-slider"
+                            data-options='{"touch" : false}' href="">
+                            <img class="projects__img" src="images/projects/3.jpg" alt="">
+                            <div class="projects__name">Петергоф</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="project-slider" id="projects">
+    <div class="project-slider__box">
+        <div class="project-slider__item">
+            <h3 class="project-slider__title">Правдинское</h3>
+            <span class="project-slider__title-img">
+                <img src="images/project-slider-after.png" alt="">
+            </span>
+            <div class="project-slider__content">
+                <div class="project-slider__sliders-box">
+                    <div class="project-slider__big-box">
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/1/big/1.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/1/big/2.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/1/big/3.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/1/big/4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="project-slider__mini-box">
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/1/1.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/1/2.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/1/3.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/1/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-slider__info">
+                    <ul class="project-slider__info-list">
+                        <li class="project-slider__info-item">Черновая планировка и уборка мусора</li>
+                        <li class="project-slider__info-item">Планировка территории на плоскости</li>
+                        <li class="project-slider__info-item">Устройство рокария</li>
+                        <li class="project-slider__info-item">Посадка плодовых и ягодных деревьев, кустарников</li>
+                        <li class="project-slider__info-item">Подготовка участка под рулонный газон</li>
+                        <li class="project-slider__info-item">Отсевная площадка под грядки</li>
+                        <li class="project-slider__info-item">Устройство экопарковки</li>
+                        <li class="project-slider__info-item">Установка грядок</li>
+                        <li class="project-slider__info-item">Установка теплицы</li>
+                        <li class="project-slider__info-item">Укладка рулонного газона</li>
+                    </ul>
+                    <div class="project-slider__price">Сумма: 1 400 000 руб.</div>
+                </div>
+            </div>
+        </div>
+        <div class="project-slider__item">
+            <h3 class="project-slider__title">РЕПИНО</h3>
+            <span class="project-slider__title-img">
+                <img src="images/project-slider-after.png" alt="">
+            </span>
+            <div class="project-slider__content">
+                <div class="project-slider__sliders-box">
+                    <div class="project-slider__big-box">
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/2/big/1.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/2/big/2.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/2/big/3.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/2/big/4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="project-slider__mini-box">
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/2/1.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/2/2.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/2/3.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/2/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-slider__info">
+                    <ul class="project-slider__info-list">
+                        <li class="project-slider__info-item">Ландшафтное проектирование участка</li>
+                        <li class="project-slider__info-item">Планировка территории на плоскости</li>
+                        <li class="project-slider__info-item">Создание дренажной системы</li>
+                        <li class="project-slider__info-item">Устройство дорожного покрытия</li>
+                        <li class="project-slider__info-item">Устройство рокария</li>
+                        <li class="project-slider__info-item">Посадка цветника и живой изгороди</li>
+                    </ul>
+                    <div class="project-slider__price">Сумма: 400 000 руб.</div>
+                </div>
+            </div>
+        </div>
+        <div class="project-slider__item">
+            <h3 class="project-slider__title">ПЕТЕРГОФ</h3>
+            <span class="project-slider__title-img">
+                <img src="images/project-slider-after.png" alt="">
+            </span>
+            <div class="project-slider__content">
+                <div class="project-slider__sliders-box">
+                    <div class="project-slider__big-box">
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/3/big/1.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/3/big/2.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/3/big/3.jpg" alt="">
+                        </div>
+                        <div class="project-slider__big-item">
+                            <img class="project-slider__big-img" src="images/projects/3/big/4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="project-slider__mini-box">
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/3/1.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/3/2.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/3/3.jpg" alt="">
+                        </div>
+                        <div class="project-slider__mini-item">
+                            <img class="project-slider__img" src="images/projects/3/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-slider__info">
+                    <ul class="project-slider__info-list">
+                        <li class="project-slider__info-item">Обустройство и укрепление дренажной канавы</li>
+                        <li class="project-slider__info-item">Посадка растений</li>
+                        <li class="project-slider__info-item">Укладка рулонного газона</li>
+                    </ul>
+                    <div class="project-slider__price">Сумма: 185 000.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="care" id="care">
+    <div class="container">
+        <div class="care__inner">
+            <h3 class="care__title">УХОД ЗА САДОМ</h3>
+            <div class="care__info">
+            Каждый участок требует постоянный профессиональный уход, чтобы поддерживать ту красоту, которую планировал ландшафтный дизайнер. Это подразумевает большой комплекс работ, требующих много времени. Доверьтесь нашим опытным садоводам! И мы гарантируем качество работ, здоровый сад, а самое главное ваше сэкономленное время.</div>
+            <div class="care-tabs">
+                <div class="care-tabs__box">
+                    <div class="care-tabs__triggers">
+                        <a class="care-tabs__triggers-item" href="#tab-1">СЕЗОННЫЕ ВЫЕЗДЫ</a>
+                        <a class="care-tabs__triggers-item" href="#tab-2">ВЕСНА</a>
+                        <a class="care-tabs__triggers-item" href="#tab-3">ОСЕНЬ</a>
+                        <a class="care-tabs__triggers-item care-tabs__triggers-item--active" href="#tab-4">ЛЕТО</a>
+                    </div>
+                    <div class="care-tabs__content">
+                        <ul class="care-tabs__content-list" id="tab-1">
+                            <li class="care-tabs__content-item">Стоимость выезда рассчитывается индивидуально (взависиомсти от: площади участка, удалённости, сложности проводимых работ, количества задействованных людей).</li>
+                        </ul>
+                        <ul class="care-tabs__content-list" id="tab-2">
+                            <li class="care-tabs__content-item">Обрезка плодовых (производится с ноября по март, до первого сокодвижения)</li>
+                            <li class="care-tabs__content-item">Санитарная обрезка роз (производтся с апреля по май, удаление повреждённых веток после зимы)</li>
+                            <li class="care-tabs__content-item">Внесение удобрения на все посадки (производится ранней весной по снегу)</li>
+                            <li class="care-tabs__content-item">Обработка от вредителей и болезней (устойчивая температура от +5)</li>
+                            <li class="care-tabs__content-item">Уход за газоном (скарификация, аэрация, мульчирование, удобрение, производится после полного просыхания газона)</li>
+                        </ul>
+                        <ul class="care-tabs__content-list" id="tab-3">
+                            <li class="care-tabs__content-item">Уход за цветниками (обрезка сухого, рыхление, прополка).</li>
+                            <li class="care-tabs__content-item">Уход за газоном (осенняя подкормка)</li>
+                            <li class="care-tabs__content-item">Стрижка газона</li>
+                            <li class="care-tabs__content-item">Деление растений (по мере необходимости)</li>
+                            <li class="care-tabs__content-item">Уборка листьев</li>
+                            <li class="care-tabs__content-item">Подготовка растений к зиме</li>
+                        </ul>
+                        <ul class="care-tabs__content-list care-tabs__content-list--active" id="tab-4">
+                            <li class="care-tabs__content-item">Уход за цветниками (прополка, обрезка сухого, рыхление)</li>
+                            <li class="care-tabs__content-item">Формовочная обрезка (фигурная стрижка, стрижка изгородей, производитсяпо мере роста)</li>
+                            <li class="care-tabs__content-item">Стрижка газона</li>
+                            <li class="care-tabs__content-item">Обработка газона от сорняков (первая обработка производится после первого коса газона)</li>
+                            <li class="care-tabs__content-item">Внесение удобрений ( по газону производится 1 раз в 2 недели, по цветниками в зависимости от растений)</li>
+                            <li class="care-tabs__content-item">Обработка от вредителей и болезней (производится с интервалом в 10-14 дней)</li>
+                            <li class="care-tabs__content-item">Обработка мощения от сорняков (производится 1 раз в месяц)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="care-tabs__sub-info"><p>*Выезд и консультация специалиста оплачивается отдельно.</p>
+                    <p>*Отдельно оплачивается: вывоз мусора, химия, удобрение, материалы для дополнительных работ ( например: земля, мульча, бордюрная лента и т.д.)</p></div>
+                </div>
+                <div class="care-accordion">
+                    <div class="care-accordion__inner">
+                        <div class="care-accordion__item care-accordion__item--active">
+                            <div class="care-accordion__trigger">СЕЗОННЫЕ ВЫЕЗДЫ</div>
+                            <ul class="care-accordion__content">
+                                <li class="care-accordion__content-item">Стоимость выезда рассчитывается индивидуально (взависиомсти от: площади участка, удалённости, сложности проводимых работ, количества задействованных людей).
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="care-accordion__item">
+                            <div class="care-accordion__trigger">ОСЕНЬ</div>
+                            <ul class="care-accordion__content">
+                                <li class="care-accordion__content-item">Обрезка плодовых (производится с ноября по март, до первого сокодвижения)</li>
+                                <li class="care-accordion__content-item">Санитарная обрезка роз (производтся с апреля по май, удаление повреждённых веток после зимы)</li>
+                                <li class="care-accordion__content-item">Внесение удобрения на все посадки (производится ранней весной по снегу)</li>
+                                <li class="care-accordion__content-item">Обработка от вредителей и болезней (устойчивая температура от +5)</li>
+                                <li class="care-accordion__content-item">Уход за газоном (скарификация, аэрация, мульчирование, удобрение, производится после полного просыхания газона)</li>
+                            </ul>
+                        </div>
+                        <div class="care-accordion__item">
+                            <div class="care-accordion__trigger">ВЕСНА</div>
+                            <ul class="care-accordion__content">
+                                <li class="care-accordion__content-item">Уход за цветниками (обрезка сухого, рыхление, прополка).</li>
+                                <li class="care-accordion__content-item">Уход за газоном (осенняя подкормка)</li>
+                                <li class="care-accordion__content-item">Стрижка газона</li>
+                                <li class="care-accordion__content-item">Деление растений (по мере необходимости)</li>
+                                <li class="care-accordion__content-item">Уборка листьев</li>
+                                <li class="care-accordion__content-item">Подготовка растений к зиме</li>
+                            </ul>
+                        </div>
+                        <div class="care-accordion__item">
+                            <div class="care-accordion__trigger">ЛЕТО</div>
+                            <ul class="care-accordion__content">
+                                <li class="care-accordion__content-item">Уход за цветниками (прополка, обрезка сухого, рыхление)</li>
+                                <li class="care-accordion__content-item">Формовочная обрезка (фигурная стрижка, стрижка изгородей, производитсяпо мере роста)</li>
+                                <li class="care-accordion__content-item">Стрижка газона</li>
+                                <li class="care-accordion__content-item">Обработка газона от сорняков (первая обработка производится после первого коса газона)</li>
+                                <li class="care-accordion__content-item">Внесение удобрений ( по газону производится 1 раз в 2 недели, по цветниками в зависимости от растений)</li>
+                                <li class="care-accordion__content-item">Обработка от вредителей и болезней (производится с интервалом в 10-14 дней)</li>
+                                <li class="care-accordion__content-item">Обработка мощения от сорняков (производится 1 раз в месяц)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="landscape" id="landscape">
+        <div class="container">
+            <h3 class="landscape__title">ЛАНДШАФТ</h3>
+            <div class="landscape__info">Ландшафтный дизайн помогает обеспечить красивый вид вокруг вашего дома. Ведь участок должен выглядеть эстетично, иметь логическую структуру и радовать глаз. Чтобы избежать лишних разочарований, необходимо грамотно продумать и разработать дизайн-проект. Обладая теоретическими знаниями и практическим опытом, мы воплотим в реальность все ваши пожелания.</div>
+            <div class="landscape-box">
+                <div class="landscape-box__item">
+                    <h4 class="landscape-box__item-title">1. Ландшафтное проектирование участка</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/1.jpg" alt="">
+                </div>
+                <div class="landscape-box__item">
+                    <h4 class="landscape-box__item-title">2. Подготовка участка</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/2.jpg" alt="">
+                </div>
+                <div class="landscape-box__item">
+                    <h4 class="landscape-box__item-title">3. Создание дренажной системы</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/3.jpg" alt="">
+                </div>
+                <div class="landscape-box__item landscape-box__item--ghost">
+                    <h4 class="landscape-box__item-title">4. Устройство дорожного покрытия</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/4.jpg" alt="">
+                </div>
+                <div class="landscape-box__item landscape-box__item--ghost">
+                    <h4 class="landscape-box__item-title">5. Альпийские горки, рокарии, альпинарии</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/5.jpg" alt="">
+                </div>
+                <div class="landscape-box__item landscape-box__item--ghost">
+                    <h4 class="landscape-box__item-title">6. Устройство ручьев, водоемов, каскадов</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/6.jpg" alt="">
+                </div>
+                <div class="landscape-box__item landscape-box__item--ghost">
+                    <h4 class="landscape-box__item-title">7. Строительство, маф</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/7.jpg" alt="">
+                </div>
+                <div class="landscape-box__item landscape-box__item--ghost">
+                    <h4 class="landscape-box__item-title">8. Подпорные стенки</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/8.jpg" alt="">
+                </div>
+                <div class="landscape-box__item landscape-box__item--ghost">
+                    <h4 class="landscape-box__item-title">9. Посадка растений</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/9.jpg" alt="">
+                </div>
+                <div class="landscape-box__item landscape-box__item--ghost">
+                    <h4 class="landscape-box__item-title">10. Устройство газона</h4>
+                    <img class="landscape-box__item-img" src="images/landscape/10.jpg" alt="">
+                </div>
+                <div class="landscape-box__link landscape-box__item--ghost">
+                    <img class="landscape-box__arrow" src="images/icons/arrow-down-green.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="reviews__inner">
+                <h3 class="reviews__title">ОТЗЫВЫ</h3>
+                <div class="reviews__items">
+                    <div class="reviews__item">
+                        <div class="reviews__item-avatar">
+                            <img class="reviews__item-img" src="images/reviews/1.jpg" alt="">
+                        </div>
+                        <div class="reviews__item-author">Михаил</div>
+                        <div class="reviews__item-comment">К компании relief image обратился в конце 2019 года, и летом 2020 все работы были закончены. Мы с семьей живём в пос. Правдинское озеро, хотели наш пустой и неровный участок превратить в уютный зеленый сад, с хорошим газоном, огородом и создать цветники у дома. Работой довольны, команда Надежды теперь занимается обслуживанием нашего участка.</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-avatar">
+                            <img class="reviews__item-img" src="images/reviews/2.jpg" alt="">
+                        </div>
+                        <div class="reviews__item-author">Наталья</div>
+                        <div class="reviews__item-comment">В 2016 году понадобились специалисты по уходу за садом. С командой Надежды наш сад зацвёл новыми красками. В том же году мы купили дом в Репино. Хотели создать уютный уголок с зоной отдыха. И уже тогда мы понимали, кому доверить воплощение наших желаний. Работой довольны, все предпочтения были учтены. По сегодняшний день мы доверяем наш сад только специалистам relief image.</div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-avatar">
+                            <img class="reviews__item-img" src="images/reviews/3.jpg" alt="">
+                        </div>
+                        <div class="reviews__item-author">Ольга</div>
+                        <div class="reviews__item-comment">Наш участок находится в Петергофе. К Надежде обратились в 2016 году. Была необходимость в уходе за садом, растения болели, а также, было много насекомых.
+                        Работой команды довольны. Вот уже 4 года доверяем наш сад специалистам!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <h3 class="footer__title">Контакты</h3>
+            <div class="footer__box">
+                <div class="footer__item">
+                    <span class="footer__item-text">По телефону:</span>
+                    <a class="footer__item-tel" href="tel:79819855004">тел.+7 (981) 985-50-04</a>
+                </div>
+                <div class="footer__item">
+                    <span class="footer__item-text">По email:</span>
+                    <a class="footer__item-email" href="mailto:relief.image@mail.ru">relief.image@mail.ru</a>
+                </div>
+                <div class="footer__item">
+                    <ul class="footer__contacts">
+                        <li class="footer__contacts-item">
+                            <a href=""><img src="images/footer/1.png" alt=""></a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a href=""><img src="images/footer/2.png" alt=""></a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a href=""><img src="images/footer/3.png" alt=""></a>
+                        </li>
+                    </ul>
+                    <a class="footer__item-loc" href="">Санкт-Петербург и ЛО</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="modal" class="modal">
+    <div class="modal__wrapper">
+        <div class="modal__logo">
+            <img class="modal__logoimg" src="images/modal-logo.png" alt="">
+        </div>
+        <div class="modal__content">
+            <h3 class="modal__content-title">Получить консультацию специалиста</h3>
+            <form class="modal__content-form" action="">
+                <input class="modal__content-input modal__content-input--name" type="text" placeholder="Имя*">
+                <input class="modal__content-input modal__content-input--phone" type="text" placeholder="Телефон*">
+                <label>
+                    <input class="modal__content-input modal__content-input--hidden" type="checkbox">
+                    <span class="modal__content-checkbox"></span>
+                    <span class="modal__content-text">Согласен с <a class="modal__content-link" href="">политикой
+                    конфиденциальности</a></span>
+                </label>
+                <button class="modal__content-btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
